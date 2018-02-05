@@ -1,0 +1,23 @@
+{
+  "name": "pwa-01",
+  "version": "1.0.0",
+  "description": "Weather Application",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "del": "^2.2.2",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "web-push": "^3.2.5",
+    "workbox-build": "^2.1.2",
+    "workbox-sw": "^2.1.2"
+  }
+}

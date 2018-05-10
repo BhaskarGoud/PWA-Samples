@@ -57,11 +57,7 @@ self.addEventListener('push', function(e) {
   var options = {
     body: body,
     icon: 'images/notification-flat.png',
-    vibrate: [100, 50, 100],
-    data: {
-      dateOfArrival: Date.now(),
-      primaryKey: 1
-    },
+    vibrate: [100, 50, 100],   
     actions: [
       {action: 'explore', title: 'Go to the site',
         icon: 'images/checkmark.png'},
